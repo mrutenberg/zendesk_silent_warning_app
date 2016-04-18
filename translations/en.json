@@ -1,0 +1,37 @@
+{
+  "app": {
+    "package": "silent_warning_app",
+    "description":  {
+      "value": "Warn user on public reply if silent is triggered",
+      "title": "app description"
+    }
+  },
+
+  "description": {
+    "value": "",
+    "title": "in app instruction"
+  },
+
+  "save_button": {
+    "value": "Save Changes",
+    "title": "Message on the save button in modal"
+  },
+
+  "close_button": {
+    "value": "Cancel",
+    "title": "Message on the cancel button in modal"
+  },
+
+  "modal_header": {
+   "value": "The silent trigger is enabled on this ticket",
+   "title": "modal window header message"
+  },
+
+  "errors": {
+    "save_hook": {
+      "title": "Error message when the agent chooses cancel",
+      "value": "This ticket was not saved as you chose to cancel."
+    }
+  }
+  
+}
