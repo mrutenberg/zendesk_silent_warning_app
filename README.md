@@ -1,5 +1,3 @@
-:warning: *Use of this software is subject to important terms and conditions as set forth in the License file* :warning:
-
 # Silent Warning App
 
 This app warns a user on submiting a ticket as public reply is silent is triggered.
