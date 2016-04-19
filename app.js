@@ -23,7 +23,7 @@
 
     onTicketSave: function() {
 	  var comment = this.comment();
-	  if (comment.type() === 'publicReply') {return true;}
+	  if (comment.type() === 'internalNote') {return true;}
 	  var ticket = this.ticket();
 	  if (ticket.customField("custom_field_25335739") === "yes") {
 		this.show()
