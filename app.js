@@ -6,11 +6,12 @@
     storage: {},
 
     events: {
-      'app.created'             : 'onAppCreated',
-      'ticket.save'             : 'onTicketSave',
-      'click .modal-save'       : 'onModalSaveClicked',
-      'shown .modal'            : 'onModalShown',
-      'hidden .modal'           : 'onModalHidden',
+      'app.created'				: 'onAppCreated',
+      'ticket.save'				: 'onTicketSave',
+      'click .modal-save'		: 'onModalSaveClicked',
+	  'click .modal-cancel'		: 'onModalHidden',
+      'shown .modal'			: 'onModalShown',
+      'hidden .modal'			: 'onModalHidden',
     },
 
     onAppCreated: function() {
