@@ -19,7 +19,7 @@
 		header: this.I18n.t('modal_header'),
         body: this.I18n.t('modal_body')
       });
-	  this.hide()
+	  this.hide();
     },
 
     onTicketSave: function() {
@@ -27,7 +27,7 @@
 	  if (comment.type() === 'internalNote') {return true;}
 	  var ticket = this.ticket();
 	  if (ticket.customField("custom_field_25335739") === "yes") {
-		this.show()
+		this.show();
         return this.promise(function(done, fail) {
 		  this.saveHookPromiseDone = done;
 		  this.saveHookPromiseFail = fail;
@@ -50,7 +50,7 @@
       try {
         this.saveHookPromiseIsDone = true;
         this.$('.modal').modal('hide');
-		this.hide()
+		this.hide();
         this.saveHookPromiseDone();
       } catch (e) {
         throw e;
@@ -58,7 +58,7 @@
     },
 
     onModalShown: function() {
-	  this.show()
+	  this.show();
 	  var ticket = this.ticket();
 	  if (ticket.customField("custom_field_25335739") === "yes") {
 		  this.$('.modal-checkbox').prop('checked', true);
@@ -82,7 +82,7 @@
     },
 
     onModalHidden: function() {
-	  this.hide()
+	  this.hide();
       clearInterval(this.modalTimeoutID);
 
       if (!this.saveHookPromiseIsDone) {
