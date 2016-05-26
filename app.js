@@ -64,7 +64,7 @@
 		  this.$('.modal-checkbox').prop('checked', true);
 	  }
 		
-      var timeout = 25,
+      var timeout = 15,
           $timeout = this.$('span.modal-timer'),
           $modal = this.$('.modal');
 

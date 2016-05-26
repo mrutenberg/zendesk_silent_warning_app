@@ -9,10 +9,10 @@
   </div>
   <div class="modal-footer">
 	<div class="btn ember-view checkbox-field silent-checkbox">
-		<input class="ember-view ember-checkbox modal-checkbox" type="checkbox" aria-hidden="true"></input>
-		<label aria-hidden="true">Silent</label>
+		<input id="ember6221" class="ember-view ember-checkbox modal-checkbox" type="checkbox" aria-hidden="true"></input>
+		<label for="ember6221" >Silent</label>
     </div>
-    <button class="btn modal-cancel" data-dismiss="modal" aria-hidden="true">{{t "close_button"}} (<span class="modal-timer">25</span>)</button>
+    <button class="btn modal-cancel" data-dismiss="modal" aria-hidden="true">{{t "close_button"}} (<span class="modal-timer">15</span>)</button>
     <button class="btn btn-primary modal-save">{{t "save_button"}}</button>
   </div>
 </div>

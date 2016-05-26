@@ -13,7 +13,7 @@
   },
 
   "save_button": {
-    "value": "Save Changes",
+    "value": "Next >",
     "title": "Message on the save button in modal"
   },
 
